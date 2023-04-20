@@ -63,11 +63,4 @@ body{
 
 .min-hand{
     height: 5px;
-    width: 45%;
-    transform-origin: 105%;
-}
-
-.hour-hand{
-    width: 40%;
-    transform-origin: 110%;
 }

@@ -1,0 +1,28 @@
+:root{
+    --base: yellow;
+    --spacing: 10px;
+    --blur: 10px;
+    --color: blue;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+
+.hl{
+    color: var(--base);
+}
+
+body{
+    text-align: center;
+    background: var(--color);
+}
